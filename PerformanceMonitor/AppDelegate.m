@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[PerformanceMonitor sharedInstance] start];
+    [[PerformanceMonitor sharedInstance] startMonitor];
     
     return YES;
 }
